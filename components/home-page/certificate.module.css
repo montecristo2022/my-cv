@@ -1,4 +1,4 @@
-.certificate {
+ /* .certificate {
     text-align: center;
     background-image: linear-gradient(to bottom,
             var(--color-grey-900),
@@ -18,4 +18,40 @@
     width: 90%;
     max-width: 40rem;
     margin: auto;
-}
+} 
+ */
+ 
+
+ .certificate {
+     text-align: center;
+     background-image: linear-gradient(to bottom,
+             var(--color-grey-900),
+             var(--color-grey-800));
+     padding: var(--size-8) 0;
+ }
+
+ .certificate h3 {
+     font-size: var(--size-12);
+     margin: var(--size-4) 0;
+     color: var(--color-grey-300);
+ }
+
+ .certificate p {
+     font-size: var(--size-6);
+     color: var(--color-grey-200);
+     width: 90%;
+     max-width: 40rem;
+     margin: auto;
+ }
+
+ .certificate .image {
+     width: 100%;
+     max-width: 600px;
+     margin: auto;
+ }
+
+ @media (max-width: 600px) {
+     .certificate .image {
+         max-width: 100%;
+     }
+ }

@@ -1,18 +1,4 @@
-.linkedin {
-  fill: white;
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
-
-.gmail {
-  fill: white;
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-}
-
-.telegram {
+.icon {
   fill: white;
   width: 50px;
   height: 50px;
@@ -21,13 +7,23 @@
 
 .footer {
   display: flex;
-  height: 100px;
   justify-content: space-around;
   align-items: center;
+  height: 100px;
 }
 
-.linkContainer {
-  display: inline-block;
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 20px 0;
+    padding-left: 20%;
+  }
+
+  .footer .linkContainer:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 .link {
@@ -42,8 +38,6 @@
   color: var(--color-grey-200);
 }
 
-.link:hover .linkedin,
-.link:hover .telegram,
-.link:hover .gmail {
+.link:hover .icon {
   fill: var(--color-grey-200);
 }

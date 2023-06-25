@@ -31,7 +31,15 @@
     color: var(--color-grey-200);
 }
 
+@media (max-width: 768px) {
+    .header .navList {
+        display: none;
+    }
+}
+
+
 @media (min-width: 768px) {
+    
     .header ul {
         gap: 0.5rem;
     }

@@ -10,7 +10,7 @@ export default function MainNavigation() {
         <Logo />
       </Link>
       <nav>
-  <ul>
+  <ul className={classes.navList}>
   <li>
     <Link href="/#projects" className={classes.navLink}>Projects</Link>
     <Link href="/#skills" className={classes.navLink}>Skills</Link>
