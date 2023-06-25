@@ -1,6 +1,6 @@
 const SKILLS_DATA = [
    { name: "HTML and CSS", image: "/images/technologies/htmlAndCss.png" },
-  { name: "JavaScript", image: "/images/technologies/js.png" },
+  { name: "JavaScript", image: "/images/technologies/javascript.webp" },
   { name: "TypeSctipt", image: "/images/technologies/typescript.png" },
   { name: "React", image: "/images/technologies/react.jpg" },
   { name: "Next.Js", image: "/images/technologies/next-js.png" },
