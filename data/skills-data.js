@@ -1,10 +1,10 @@
 const SKILLS_DATA = [
    { name: "HTML and CSS", image: "/images/technologies/htmlAndCss.png" },
-  { name: "JavaScript", image: "/images/technologies/js.png" },
+  { name: "JavaScript", image: "/images/technologies/javascipt.png" },
   { name: "TypeSctipt", image: "/images/technologies/typescript.png" },
   { name: "React", image: "/images/technologies/react.jpg" },
   { name: "Next.Js", image: "/images/technologies/next-js.png" },
-    // { name: "Node.Js", image: "/images/technologies/node-js.webp" },
+    // { name: "Node.Js", image: "/images/technologies/node-js.png" },
 ];
 
 const ADDITIOANAL_SKILLS_DATA = [
