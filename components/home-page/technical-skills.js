@@ -21,8 +21,6 @@ export default function TechnicalSkills() {
           );
         })}
       </ul>
-
-      <h1>sdgdfg</h1>
       <h3>Additional technical skills</h3>
       <ul>
         {ADDITIOANAL_SKILLS_DATA.map((skill, index) => {

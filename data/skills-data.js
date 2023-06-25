@@ -9,9 +9,9 @@ const SKILLS_DATA = [
 
 const ADDITIOANAL_SKILLS_DATA = [
   "Git",
-  "Asiox",
+  "Axios",
   "Rest Api",
-  "Redux Tookit",
+  "Redux Tolkit",
   "Responsive/Adaptive design",
   "MongoDB",
 ];
