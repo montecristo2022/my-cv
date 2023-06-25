@@ -1,0 +1,49 @@
+.linkedin {
+  fill: white;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.gmail {
+  fill: white;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.telegram {
+  fill: white;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkContainer {
+  display: inline-block;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-grey-200);
+}
+
+.link:hover .linkedin,
+.link:hover .telegram,
+.link:hover .gmail {
+  fill: var(--color-grey-200);
+}
