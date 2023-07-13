@@ -13,7 +13,7 @@ const ADDITIOANAL_SKILLS_DATA = [
   "Rest Api",
   "Redux Tolkit",
   "Responsive/Adaptive design",
-  "MongoDB",
+  "Sass",
 ];
 
 const LANGUAGE_SKILLS_DATA = [
