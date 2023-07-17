@@ -44,6 +44,10 @@
     text-align: center;
 }
 
+.post:hover {
+    scale: 1.01;
+}
+
 .post a {
     color: var(--color-grey-100);
 }
