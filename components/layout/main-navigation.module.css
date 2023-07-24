@@ -54,4 +54,7 @@
     margin-right: var(--size-8);
 }
 
+.navLink:hover {
+    cursor: pointer;
+}
 

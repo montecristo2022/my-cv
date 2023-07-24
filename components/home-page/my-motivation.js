@@ -23,7 +23,7 @@ export default function MyMotivation() {
             <a href="https://lichess.org/@/Montebet" target="_blank">
               lichess rating
             </a>
-                      {' '} is 1800-1850), read books instead of watching tv.
+                      {' '} is 1850-1900), read books instead of watching tv.
           </p>
         </li>
         <li>

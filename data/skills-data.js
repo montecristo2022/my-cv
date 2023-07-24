@@ -14,6 +14,8 @@ const ADDITIOANAL_SKILLS_DATA = [
   "Redux Tolkit",
   "Responsive/Adaptive design",
   "Sass",
+  "Styled Components",
+  "Tailwind",
 ];
 
 const LANGUAGE_SKILLS_DATA = [
