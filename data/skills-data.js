@@ -4,7 +4,7 @@ const SKILLS_DATA = [
   { name: "TypeSctipt", image: "/images/technologies/typescript.png" },
   { name: "React", image: "/images/technologies/react.jpg" },
   { name: "Next.Js", image: "/images/technologies/next-js.png" },
-    // { name: "Node.Js", image: "/images/technologies/node-js.png" },
+   { name: "Node.Js (base level)", image: "/images/technologies/node-js.webp" },
 ];
 
 const ADDITIOANAL_SKILLS_DATA = [
@@ -16,6 +16,8 @@ const ADDITIOANAL_SKILLS_DATA = [
   "Sass",
   "Styled Components",
   "Tailwind",
+  "MongoDB",
+  "npm"
 ];
 
 const LANGUAGE_SKILLS_DATA = [
